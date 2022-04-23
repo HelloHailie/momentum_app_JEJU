@@ -25,6 +25,6 @@ const images = [
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const jejuImage = document.createElement("img");
-jejuImage.src = `img/${chosenImage}`;
+jejuImage.src = `/${chosenImage}`;
 
 document.body.appendChild(jejuImage);
