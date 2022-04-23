@@ -1,0 +1,105 @@
+.hidden {
+    display:none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    padding-top: 150px;
+}
+
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:98%;
+    }
+
+#clock {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 8vw;
+    margin-top: 0px;
+}
+
+#greeting {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+#loginForm {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+#weather {
+    position: absolute;
+    width: 97%;
+    top: 10px;
+    padding-right: 40px;
+    text-align: right;
+    color: white;
+    font-size: 2vw;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-width: thin;
+    border: 5px dotted wheat;
+    position: absolute;
+    bottom: 40px; right: 40px;
+  }
+
+#todoList {
+    margin: 20px;
+    padding: 20px;
+    border-width: thin;
+    position: absolute;
+    top: 350px; left: 40px;
+    font-size: 2vw;
+    color: white;
+}
+
+input[type=text] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #CCC;
+  color: #555;
+  box-sizing: border-box;
+  font-family: 'Arvo';
+  font-size: 30px;  
+}
+
+    
+/* 
+input[type=text] {
+    width: 250px;
+    height: 32px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-family:inherit;
+}
+ */
