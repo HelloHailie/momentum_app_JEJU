@@ -38,13 +38,13 @@ img {
 #greeting {
     text-align: center;
     color: white;
-    font-size: 4rem;
+    font-size: 5vw;
 }
 
 #loginForm {
     text-align: center;
     color: white;
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 #weather {
